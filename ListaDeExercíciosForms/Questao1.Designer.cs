@@ -107,21 +107,20 @@ namespace ListaDeExercíciosForms
             // 
             // txtResultado
             // 
-            this.txtResultado.AutoSize = true;
             this.txtResultado.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtResultado.Location = new System.Drawing.Point(193, 276);
+            this.txtResultado.Location = new System.Drawing.Point(207, 279);
             this.txtResultado.Name = "txtResultado";
-            this.txtResultado.Size = new System.Drawing.Size(0, 16);
+            this.txtResultado.Size = new System.Drawing.Size(191, 51);
             this.txtResultado.TabIndex = 7;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label4.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.Location = new System.Drawing.Point(105, 111);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(210, 18);
+            this.label4.Size = new System.Drawing.Size(273, 22);
             this.label4.TabIndex = 8;
             this.label4.Text = "Quantidade média de uma peça";
             // 
@@ -142,6 +141,7 @@ namespace ListaDeExercíciosForms
             this.Controls.Add(this.label1);
             this.Name = "Questao1";
             this.Text = "Questão 1";
+            this.Load += new System.EventHandler(this.Questao1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

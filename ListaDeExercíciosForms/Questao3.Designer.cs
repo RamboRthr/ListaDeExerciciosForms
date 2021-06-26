@@ -47,10 +47,10 @@ namespace ListaDeExercíciosForms
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(80, 83);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(211, 23);
+            this.label1.Size = new System.Drawing.Size(246, 22);
             this.label1.TabIndex = 0;
             this.label1.Text = "Volume do barril de petróleo";
             // 
@@ -59,9 +59,10 @@ namespace ListaDeExercíciosForms
             this.txtAltura.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtAltura.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtAltura.Location = new System.Drawing.Point(175, 139);
             this.txtAltura.Name = "txtAltura";
-            this.txtAltura.Size = new System.Drawing.Size(100, 23);
+            this.txtAltura.Size = new System.Drawing.Size(100, 22);
             this.txtAltura.TabIndex = 1;
             // 
             // label2
@@ -70,9 +71,10 @@ namespace ListaDeExercíciosForms
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(80, 142);
+            this.label2.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(70, 142);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 15);
+            this.label2.Size = new System.Drawing.Size(105, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "Altura do barril:";
             // 
@@ -81,9 +83,10 @@ namespace ListaDeExercíciosForms
             this.txtRaio.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtRaio.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtRaio.Location = new System.Drawing.Point(175, 183);
             this.txtRaio.Name = "txtRaio";
-            this.txtRaio.Size = new System.Drawing.Size(100, 23);
+            this.txtRaio.Size = new System.Drawing.Size(100, 22);
             this.txtRaio.TabIndex = 3;
             // 
             // label3
@@ -92,9 +95,10 @@ namespace ListaDeExercíciosForms
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(96, 186);
+            this.label3.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(80, 186);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 15);
+            this.label3.Size = new System.Drawing.Size(89, 16);
             this.label3.TabIndex = 4;
             this.label3.Text = "Raio da base";
             // 
@@ -104,9 +108,10 @@ namespace ListaDeExercíciosForms
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.Location = new System.Drawing.Point(281, 142);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(24, 15);
+            this.label4.Size = new System.Drawing.Size(24, 16);
             this.label4.TabIndex = 5;
             this.label4.Text = "cm";
             // 
@@ -116,14 +121,16 @@ namespace ListaDeExercíciosForms
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.Location = new System.Drawing.Point(281, 186);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(24, 15);
+            this.label5.Size = new System.Drawing.Size(24, 16);
             this.label5.TabIndex = 6;
             this.label5.Text = "cm";
             // 
             // btnConfirmar
             // 
+            this.btnConfirmar.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnConfirmar.Location = new System.Drawing.Point(80, 225);
             this.btnConfirmar.Name = "btnConfirmar";
             this.btnConfirmar.Size = new System.Drawing.Size(75, 23);
@@ -135,15 +142,17 @@ namespace ListaDeExercíciosForms
             // txtResultado
             // 
             this.txtResultado.AutoSize = true;
+            this.txtResultado.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtResultado.Location = new System.Drawing.Point(175, 229);
             this.txtResultado.Name = "txtResultado";
-            this.txtResultado.Size = new System.Drawing.Size(0, 15);
+            this.txtResultado.Size = new System.Drawing.Size(0, 16);
             this.txtResultado.TabIndex = 8;
             // 
             // Questao3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::ListaDeExercíciosForms.Properties.Resources.white_abstract_background_design_23_2148825582;
             this.ClientSize = new System.Drawing.Size(389, 322);
             this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.btnConfirmar);

@@ -24,5 +24,10 @@ namespace ListaDeExercíciosForms
                 txtResultado.Text = $"Quantidade média da peça [{txtNomePeca.Text}]: {((qtdMinima + qtdMaxima) / 2).ToString()} unidades";
             }
         }
+
+        private void Questao1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
