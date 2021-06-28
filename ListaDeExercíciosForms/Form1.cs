@@ -20,7 +20,7 @@ namespace ListaDeExercíciosForms
         Questao1 questao1 = new Questao1();
         Questão_2 questao2 = new Questão_2();
         Questao3 questao3 = new Questao3();
-
+        Questao4 questao4 = new Questao4();
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
@@ -45,7 +45,7 @@ namespace ListaDeExercíciosForms
             }
             else if (selectQuestao.SelectedItem.ToString() == "Questão 4")
             {
-                MessageBox.Show("Esta questão está sendo desenvolvida no momento.");
+                questao4.Show();
 
             }
 
